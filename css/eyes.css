@@ -1,0 +1,33 @@
+@keyframes moveText {
+  0% {
+    position: absolute;
+    top: inherit;
+    left: 10px;
+    color: inherit;
+  }
+  50% {
+    position: absolute;
+    top: inherit;
+    left: 350px;
+    color: red;
+  }
+  100% {
+    position: absolute;
+    top: inherit;
+    left: 10px;
+    color: inherit;
+  }
+}
+
+
+
+p {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 100%;
+  font-weight: bold;
+  animation-name: moveText;
+  animation-duration: 6s;
+  animation-iteration-count: 2;
+}
