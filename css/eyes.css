@@ -22,12 +22,15 @@
 @keyframes wink {
   0% {
     height: inherit;
+    top: 150px;
   }
   50% {
     height: 0;
+    top: 190px;
   }
   100% {
     height: inherit;
+    top: 150px;
   }
 }
 
