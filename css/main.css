@@ -53,7 +53,7 @@
   transform: rotate(-60deg);
   transform-origin: right 250px;
   animation-name: moveLeftStache;
-  animation-duration: 0.1s;
+  animation-duration: 2s;
   animation-iteration-count: infinite;
 }
 
@@ -71,6 +71,6 @@
   transform: rotate(60deg);
   transform-origin: left 250px;
   animation-name: moveRightStache;
-  animation-duration: 0.1s;
+  animation-duration: 2s;
   animation-iteration-count: infinite;
 }

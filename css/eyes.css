@@ -59,3 +59,15 @@
   background-color: currentColor;
   border-radius: 100%;
 }
+
+.eye::after {
+  content: "";
+  position: absolute;
+  top: 110px;
+  left: 400px;
+  height: 140px;
+  width: 140px;
+  /* background-color: currentColor; */
+  border-radius: 100%;
+  border: 3px solid gold;
+}
