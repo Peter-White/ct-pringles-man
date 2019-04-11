@@ -63,8 +63,8 @@
 .eye::after {
   content: "";
   position: absolute;
-  top: 110px;
-  left: 400px;
+  top: 120px;
+  left: 390px;
   height: 140px;
   width: 140px;
   /* background-color: currentColor; */
